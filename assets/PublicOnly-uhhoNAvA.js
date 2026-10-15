@@ -1,0 +1,1 @@
+import{j as e}from"./data-sboWvH_Z.js";import{g as s}from"./index-BiZgoj8O.js";import{f as n,N as r,O as i}from"./vendor-Dvv9S-nA.js";function p(){var t,o;const a=n();return s("accessToken")?e.jsx(r,{to:((o=(t=a.state)==null?void 0:t.from)==null?void 0:o.pathname)||"/",replace:!0}):e.jsx(i,{})}export{p as default};

@@ -1,0 +1,1 @@
+import{i as e}from"./data-sboWvH_Z.js";import{a as t}from"./apiClient-BJujCrlD.js";function u(){return e({queryKey:["opportunityEnums"],queryFn:async()=>(await t.get("/global/enums/oportunity")).data,cacheTime:0})}export{u};

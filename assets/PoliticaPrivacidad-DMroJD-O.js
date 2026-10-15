@@ -1,0 +1,1 @@
+import{j as t}from"./data-sboWvH_Z.js";import"./vendor-Dvv9S-nA.js";import{D as o}from"./DemoLegalContent-Bvoz_Al4.js";import"./Footer-CWN3myaC.js";import"./Icons-CKrl2Gl4.js";import"./fander-logo-Ba3tAqC2.js";const p=()=>t.jsx(o,{title:"Política de Privacidad",topic:"la información sobre el tratamiento de datos personales"});export{p as default};

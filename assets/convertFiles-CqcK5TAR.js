@@ -1,0 +1,1 @@
+const c=a=>new Promise((r,s)=>{const e=new FileReader;e.readAsDataURL(a),e.onload=()=>r(e.result),e.onerror=n=>s(n)}),l=async a=>{try{const s=await(await fetch(a)).blob();return new Promise((e,n)=>{const o=new FileReader;o.readAsDataURL(s),o.onload=()=>e(o.result),o.onerror=t=>n(t)})}catch(r){throw console.error("Error al convertir URL a base64:",r),r}};export{l as a,c};

@@ -1,0 +1,1 @@
+import{j as r}from"./data-sboWvH_Z.js";import{O as t}from"./vendor-Dvv9S-nA.js";import{U as o}from"./UserContext-CRdWPlGa.js";import"./apiClient-BJujCrlD.js";import"./index-BiZgoj8O.js";function p(){return r.jsx(o,{children:r.jsx(t,{})})}export{p as default};

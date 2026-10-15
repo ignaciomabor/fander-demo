@@ -1,0 +1,1 @@
+import{i as e}from"./data-sboWvH_Z.js";import{a as n}from"./apiClient-BJujCrlD.js";function i(){return e({queryKey:["invoiceEnums"],queryFn:async()=>(await n.get("/global/enums/invoice")).data})}export{i as u};

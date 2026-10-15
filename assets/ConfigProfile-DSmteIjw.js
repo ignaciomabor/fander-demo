@@ -1,0 +1,17 @@
+import{j as e}from"./data-sboWvH_Z.js";import{L as i}from"./vendor-Dvv9S-nA.js";import{P as l,B as c,F as d,U as u,T as p}from"./Icons-CKrl2Gl4.js";import{u as f}from"./UserContext-CRdWPlGa.js";import"./apiClient-BJujCrlD.js";import"./index-BiZgoj8O.js";const h=[{name:"Gestionar suscripciones",to:"/comprar-visibilidad",icon:e.jsx(c,{className:"w-10 h-10"})},{name:"Gestionar facturas Fankeys",to:"/configuracion/gestionar-facturas-fankeys",icon:e.jsx(d,{className:"w-10 h-10"})},{name:"Editar datos de usuario",to:"/configuracion/editar-informacion-sesion",icon:e.jsx(l,{className:"w-10 h-10"})},{name:"Editar datos facturación",to:"/configuracion/editar-datos-facturacion",icon:e.jsx(c,{className:"w-10 h-10"})},{name:"Cambiar contraseña",to:"/configuracion/cambiar-contrasena",icon:e.jsx(u,{className:"w-10 h-10"})},{name:"Permisos para notificaciones",to:"/configuracion/permisos-notificaciones",icon:e.jsx(p,{className:"w-10 h-10"})}];function y(){var r,o;const{user:s,isLoading:m,error:n}=f(),t=(o=(r=s==null?void 0:s.role)==null?void 0:r.capabilities)==null?void 0:o.includes("ADMIN"),x=h.filter(a=>a.name==="Panel de administración"?t:!0);return e.jsxs("main",{className:"mx-auto max-w-7xl flex flex-col px-4 h-full",children:[e.jsxs("div",{className:"flex-1 flex flex-col items-center gap-20 py-10",children:[e.jsxs("section",{className:"text-center",children:[e.jsx("h2",{className:"p-2 text-5xl font-medium text-primary",children:"Configuración"}),e.jsx("p",{className:"mt-4 text-base text-checkbox",children:"Aquí podrás administrar tu información"}),m&&e.jsx("p",{className:"mt-2 text-sm text-gray-500",children:"Cargando datos de usuario..."}),n&&e.jsxs("p",{className:"mt-2 text-sm text-error",children:["Error: ",n.message]})]}),e.jsxs("section",{className:"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-7",children:[x.map(a=>e.jsx(i,{to:a.to,className:`group lex flex-col items-center justify-center p-10 gap-4
+                         bg-white text-checkbox
+                         rounded-[16px] shadow-2xl
+                         cursor-pointer`,children:e.jsxs("div",{className:"flex flex-col gap-4 mt-24",children:[e.jsx("div",{className:`
+                    w-10 h-10
+                    text-[#1E1E1E]
+                    group-hover:text-primary
+                    transition-all duration-300
+                  `,children:a.icon}),e.jsx("span",{className:"text-left group-hover:text-black transition-all duration-300",children:a.name})]})},a.to)),t&&e.jsx(i,{to:"/admin",className:`group lex flex-col items-center justify-center p-10 gap-4
+                         bg-white text-checkbox
+                         rounded-[16px] shadow-2xl
+                         cursor-pointer`,children:e.jsxs("div",{className:"flex flex-col gap-4 mt-24",children:[e.jsx("div",{className:`
+                    w-10 h-10
+                    text-[#1E1E1E]
+                    group-hover:text-primary
+                    transition-all duration-300
+                  `,children:e.jsx(l,{className:"w-10 h-10"})}),e.jsx("span",{className:"text-left group-hover:text-black transition-all duration-300",children:"Panel de administración"})]})})]})]}),e.jsx("div",{className:"mb-10 flex justify-center",children:e.jsx(i,{className:"text-checkbox hover:text-primary transition-all duration-300 cursor-pointer hover:opacity-80",to:"/configuracion/eliminar-cuenta",children:"Deseo Eliminar mi cuenta"})})]})}export{y as default};

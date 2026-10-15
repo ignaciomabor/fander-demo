@@ -1,0 +1,1 @@
+import{j as r}from"./data-sboWvH_Z.js";import"./vendor-Dvv9S-nA.js";function i({small:t=!1}){const e=t?"text-[8px] px-1 py-1.5":"text-sm px-2 py-3";return r.jsx("div",{className:`bg-gradient-to-tr from-primary to-tertiary rounded-full ${e} text-white inline-block`,children:"Top"})}export{i as T};

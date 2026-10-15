@@ -1,0 +1,1 @@
+import{i as t}from"./data-sboWvH_Z.js";import{a as r}from"./apiClient-BJujCrlD.js";function p(e){return t({queryKey:["publicOpportunity",e],queryFn:async()=>(await r.get(`/oportunity/public/${e}`)).data,enabled:!!e,staleTime:1e3*60*5,gcTime:1e3*60*10})}export{p as u};

@@ -1,0 +1,1 @@
+import{j as e}from"./data-sboWvH_Z.js";import"./vendor-Dvv9S-nA.js";function n(){return e.jsx("div",{className:"flex justify-center items-center min-h-screen",children:e.jsx("div",{className:"animate-spin rounded-full h-12 w-12 border-b-2 border-primary"})})}export{n as L};

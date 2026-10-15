@@ -1,0 +1,1 @@
+import{i as e}from"./data-sboWvH_Z.js";import{a as r}from"./apiClient-BJujCrlD.js";function u(){return e({queryKey:["profileEnums"],queryFn:async()=>(await r.get("/global/enums/musician")).data,cacheTime:0})}export{u};

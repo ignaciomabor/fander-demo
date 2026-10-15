@@ -1,0 +1,1 @@
+import{i as e}from"./data-sboWvH_Z.js";import{a as s}from"./apiClient-BJujCrlD.js";function u(){return e({queryKey:["musicianStyleEnums"],queryFn:async()=>(await s.get("/music-style")).data,cacheTime:0})}export{u};

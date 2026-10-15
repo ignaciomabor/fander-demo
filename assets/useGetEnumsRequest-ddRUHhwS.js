@@ -1,0 +1,1 @@
+import{i as e}from"./data-sboWvH_Z.js";import{a as s}from"./apiClient-BJujCrlD.js";function a(){return e({queryKey:["enums","request"],queryFn:async()=>(await s.get("/global/enums/request")).data,staleTime:1e3*60*30,cacheTime:1e3*60*60})}export{a as u};

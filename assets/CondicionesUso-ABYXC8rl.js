@@ -1,0 +1,1 @@
+import{j as o}from"./data-sboWvH_Z.js";import"./vendor-Dvv9S-nA.js";import{D as t}from"./DemoLegalContent-Bvoz_Al4.js";import"./Footer-CWN3myaC.js";import"./Icons-CKrl2Gl4.js";import"./fander-logo-Ba3tAqC2.js";const n=()=>o.jsx(t,{title:"Condiciones de Uso",topic:"los términos y condiciones de uso de la plataforma para artistas y clientes"});export{n as default};

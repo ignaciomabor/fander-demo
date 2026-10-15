@@ -1,0 +1,1 @@
+import{j as t}from"./data-sboWvH_Z.js";import"./vendor-Dvv9S-nA.js";import{n as r}from"./Icons-CKrl2Gl4.js";function m({data:e}){return t.jsxs("div",{className:"bg-signalWhite text-black px-2 py-1 rounded-full text-sm flex items-center gap-1",children:[t.jsx(r,{})," ",e]})}export{m as A};

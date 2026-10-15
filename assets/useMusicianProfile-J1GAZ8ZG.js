@@ -1,0 +1,1 @@
+import{i}from"./data-sboWvH_Z.js";import{a as r}from"./apiClient-BJujCrlD.js";function u(e){return i({queryKey:["musicianProfile",e],queryFn:async()=>(await r.get(`/musician/public/slug/${e}`)).data,enabled:!!e})}export{u};

@@ -1,0 +1,1 @@
+import{i as e}from"./data-sboWvH_Z.js";import{a as r}from"./apiClient-BJujCrlD.js";function n(){return e({queryKey:["profiles"],queryFn:async()=>(await r.get("/musician/panel")).data,cacheTime:0})}export{n as u};

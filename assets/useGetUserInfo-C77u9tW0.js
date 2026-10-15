@@ -1,0 +1,1 @@
+import{i as e}from"./data-sboWvH_Z.js";import{a as r}from"./apiClient-BJujCrlD.js";function a(){return e({queryKey:["userInfo"],queryFn:async()=>(await r.get("/user")).data,cacheTime:0})}export{a as u};

@@ -1,0 +1,1 @@
+import{j as o}from"./data-sboWvH_Z.js";import"./vendor-Dvv9S-nA.js";import{D as t}from"./DemoLegalContent-Bvoz_Al4.js";import"./Footer-CWN3myaC.js";import"./Icons-CKrl2Gl4.js";import"./fander-logo-Ba3tAqC2.js";const p=()=>o.jsx(t,{title:"Política de Cookies",topic:"la información sobre las cookies utilizadas"});export{p as default};

@@ -1,0 +1,1 @@
+import{j as o}from"./data-sboWvH_Z.js";import{u as a,r}from"./vendor-Dvv9S-nA.js";import s from"./FeedbackView-QYPfyeA6.js";const n=()=>{const e=a();return r.useEffect(()=>{const t=setTimeout(()=>{e("/panel-musico")},3e3);return()=>clearTimeout(t)},[e]),o.jsx(s,{title:"Enhorabuena el pago se ha completado",subtitle:"Te regresamos al panel"})};export{n as default};
